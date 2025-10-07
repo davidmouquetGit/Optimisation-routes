@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+optimenv/
+data/adresses/
 data/communes france/
 data/reseau routes
 # Distribution / packaging
