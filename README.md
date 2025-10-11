@@ -4,7 +4,7 @@ Evidemment, si on remplace le célèbre livreur d'ingrédients par un célèbre 
 
 Les données d'entrée sont:
 
-- Le réseau de transport routier sur la zone (https://geoservices.ign.fr/route500)
+- Le réseau de transport routier sur la zone
 - Le points de livraisons (clients) créés manuellement dans QGis
 
 
@@ -19,3 +19,4 @@ Le problème d'optimisation est défini et résolu avec le package Gurobi
 - [Gurobi](https://www.gurobi.com/jupyter_models/traveling-salesman/) - Traveling Salesman Problem
 - [Networkx](https://networkx.org/) - Traitement topologique de graphes
 - [QGis](https://qgis.org/) - SIG utilisé pour la visualisation
+- [Réseau_routes] (https://geoservices.ign.fr/route500) - Réseau des routes française (IGN)
