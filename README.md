@@ -8,7 +8,7 @@ Les données d'entrée sont:
 - Le points de livraisons (clients) créés manuellement dans QGis
 
 
-![Clients](images/points de livraisons.jpg)
+![Clients](images/points_de_livraisons.jpg)
 
 
 Ici, j'utilise geopandas pour les traitements géographiques et networkx pour décrire la topologie du réseau
