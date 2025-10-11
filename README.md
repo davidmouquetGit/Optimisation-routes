@@ -19,4 +19,4 @@ Le problème d'optimisation est défini et résolu avec le package Gurobi
 - [Gurobi](https://www.gurobi.com/jupyter_models/traveling-salesman/) - Traveling Salesman Problem
 - [Networkx](https://networkx.org/) - Traitement topologique de graphes
 - [QGis](https://qgis.org/) - SIG utilisé pour la visualisation
-- [Réseau_routes] (https://geoservices.ign.fr/route500) - Réseau des routes française (IGN)
+- [Réseau_routes](https://geoservices.ign.fr/route500) - Réseau des routes française (IGN)
