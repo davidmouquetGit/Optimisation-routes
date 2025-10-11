@@ -7,5 +7,15 @@ Les données d'entrée sont:
 - Le réseau de transport routier sur la zone (https://geoservices.ign.fr/route500)
 - Le points de livraisons (clients) créés manuellement dans QGis
 
+
+![Clients](images/points de livraisons.jpg)
+
+
 Ici, j'utilise geopandas pour les traitements géographiques et networkx pour décrire la topologie du réseau
 Le problème d'optimisation est défini et résolu avec le package Gurobi
+
+## Sources
+
+- [Gurobi](https://www.gurobi.com/jupyter_models/traveling-salesman/) - Traveling Salesman Problem
+- [Networkx](https://networkx.org/) - Traitement topologique de graphes
+- [QGis](https://qgis.org/) - SIG utilisé pour la visualisation
