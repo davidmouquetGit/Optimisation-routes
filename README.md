@@ -6,17 +6,33 @@ Me faisant parfois livrer (par une célèbre entreprise internationale) des ingr
 Evidemment, si on remplace le célèbre livreur d'ingrédients par un célèbre livreur de colis ou une entreprise de collecte de déchets, c'est pareil 😉
 
 # Démarche 
-La démarche est détaillée dans le [notebook](optimisation tournée.ipynb)  
+La démarche générale est illustrée ci-dessous
+
+<p align="center">
+  <img src="images/methodologie.png" alt="metho" width="65%"/>
+</p>
+
+Celle-ci est détaillée dans le [notebook](optimisation_tournée.ipynb). Ce problème d'optimisation combinatoire est relativement simple à conceptualiser mais sa formulation est complexe. Le code code fourni dans les démonstration de Gurobi est réutilisé et adapté à notre cas.
+
 Les données d'entrée sont:
 
 - Le réseau de transport routier sur la zone
 - Le points de livraisons (clients) créés manuellement dans QGis
 
-![Clients](images/points_de_livraisons.jpg)
+<p align="center">
+  <img src="images/points_de_livraisons.jpg" alt="carto" width="65%"/>
+</p>
 
 
-Ici, j'utilise geopandas pour les traitements géographiques et networkx pour décrire la topologie du réseau
-Le problème d'optimisation est défini et résolu avec le package Gurobi
+La résolution du problème d'optimisation fournie l'ordre de passage optimal
+
+
+<p align="center">
+  <img src="images/ordre_optimal.jpg" alt="carto" width="65%"/>
+</p>
+
+
+
 
 ## Outils et données utilisées
 
@@ -24,3 +40,4 @@ Le problème d'optimisation est défini et résolu avec le package Gurobi
 - [Networkx](https://networkx.org/) - Traitement topologique de graphes
 - [QGis](https://qgis.org/) - SIG utilisé pour la visualisation
 - [Réseau_routes](https://geoservices.ign.fr/route500) - Réseau des routes française (IGN)
+- Python pour le code 
