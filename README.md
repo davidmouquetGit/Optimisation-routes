@@ -6,7 +6,7 @@ Me faisant parfois livrer (par une célèbre entreprise internationale) des ingr
 Evidemment, si on remplace le célèbre livreur d'ingrédients par un célèbre livreur de colis ou une entreprise de collecte de déchets, c'est pareil 😉
 
 # Démarche 
-La démarche est détaillée dans le [notebook]('optimisation tournée.ipynb')  
+La démarche est détaillée dans le [notebook](optimisation tournée.ipynb)  
 Les données d'entrée sont:
 
 - Le réseau de transport routier sur la zone
