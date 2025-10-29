@@ -9,7 +9,7 @@ Evidemment, si on remplace le célèbre livreur d'ingrédients par un célèbre 
 La démarche générale est illustrée ci-dessous
 
 <p align="center">
-  <img src="images/methododologie.png" alt="metho" width="65%"/>
+  <img src="images/methodologie.png" alt="metho" width="65%"/>
 </p>
 
 Celle-ci est détaillée dans le [notebook](optimisation_tournée.ipynb). Ce problème d'optimisation combinatoire est relativement simple à conceptualiser mais sa formulation est complexe. Le code code fourni dans les démonstrations de Gurobi est réutilisé et adapté à notre cas.
