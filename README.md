@@ -5,7 +5,7 @@
 Me faisant parfois livrer (par une célèbre entreprise internationale) des ingrédients pour cuisiner, je me suis demandé si le livreur suivait un planning de livraison optimal afin de minimiser les coûts de déplacement. Ce démonstrateur illustre le célèbre problème du voyageur de commerce qui cherche à optimiser sa tournée.
 Evidemment, si on remplace le célèbre livreur d'ingrédients par un célèbre livreur de colis ou une entreprise de collecte de déchets, c'est pareil 😉
 
-# Démarche 
+## Démarche 
 La démarche générale est illustrée ci-dessous
 
 <p align="center">
